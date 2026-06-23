@@ -14,7 +14,7 @@ router.post(
             const { text } = req.body;
 
             const image = req.file
-                ? `/uploads/${req.file.filename}`
+                ? `${req.file.path}`
                 : "";
 
             if (!text && !image) {
