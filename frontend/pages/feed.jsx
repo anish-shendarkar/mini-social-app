@@ -9,7 +9,7 @@ import Navbar from "../components/Navbar";
 
 import CreatePostCard from "../components/CreatePostCard";
 
-import PostCard from "../components/PostCard";
+import PostCard from "../components/Postcard";
 
 import api from "../services/api";
 
