@@ -34,7 +34,7 @@ export default function CreatePostCard({
             }
 
             await api.post(
-                "/posts",
+                "/api/posts",
                 formData
             );
 
@@ -48,7 +48,7 @@ export default function CreatePostCard({
     };
 
     return (
-        <Card>
+        <Card elevation={2} sx={{ mb: 2 }}>
             <CardContent>
                 <Stack spacing={2}>
                     <TextField

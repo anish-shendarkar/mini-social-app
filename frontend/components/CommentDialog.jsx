@@ -25,7 +25,7 @@ export default function CommentDialog({
         async () => {
             try {
                 await api.post(
-                    `/posts/${post._id}/comment`,
+                    `/api/posts/${post._id}/comment`,
                     {
                         text: comment,
                     }

@@ -29,7 +29,7 @@ export default function PostCard({
         async () => {
             try {
                 await api.put(
-                    `/posts/${post._id}/like`
+                    `/api/posts/${post._id}/like`
                 );
 
                 refresh();

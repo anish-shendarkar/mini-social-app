@@ -19,7 +19,7 @@ export default function Feed() {
 
     const getPosts = async () => {
         const res = await api.get(
-            "/posts"
+            "/api/posts"
         );
 
         setPosts(res.data);

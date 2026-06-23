@@ -35,7 +35,7 @@ export default function Signup() {
 
         try {
             await api.post(
-                "/auth/signup",
+                "/api/auth/signup",
                 form
             );
 
