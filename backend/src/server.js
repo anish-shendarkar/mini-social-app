@@ -22,7 +22,7 @@ app.use(
     cors({
         origin: [
             "http://localhost:5173",
-            
+            "https://mini-social-app-dun.vercel.app",
         ],
         credentials: true,
     })
